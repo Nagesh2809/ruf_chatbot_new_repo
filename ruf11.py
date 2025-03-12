@@ -28,7 +28,7 @@ if not OPEN_AI_KEY:
 # Initialize LLM
 llm = ChatOpenAI(
     temperature=0,
-    model="gpt-4",
+    model="gpt-4o-mini",
     openai_api_key=OPEN_AI_KEY,
     max_tokens=2000
 )
@@ -91,7 +91,7 @@ def process_input_with_sentiment(user_input):
 
     try:
         # Debugging: Print the prompt
-        print("Generated Prompt:", prompt)
+        # print("Generated Prompt:", prompt)
         # logging.info(f"Generated Prompt: {prompt}")
 
         # Add user input to memory
