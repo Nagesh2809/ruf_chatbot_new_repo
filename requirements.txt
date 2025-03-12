@@ -1,0 +1,21 @@
+
+streamlit==1.41.1
+requests==2.32.3
+langchain==0.3.14
+langchain-openai==0.3.6
+langchain-community==0.3.14
+faiss-cpu==1.10.0
+openai==1.63.0
+python-dotenv==1.0.1
+transformers==4.49.0
+torch==2.5.1
+
+
+# streamlit==1.41.1
+# requests==2.32.3
+# langchain==0.3.14
+# langchain-openai==0.3.6
+# langchain-community==0.3.14
+# faiss-cpu==1.10.0
+# openai==1.63.0
+# python-dotenv==1.0.1
